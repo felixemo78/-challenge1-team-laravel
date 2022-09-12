@@ -524,6 +524,7 @@ a {
     font-style: normal;
   }
   .footer-text {
+    padding-top: 1rem;
     font-size: 38px;
     line-height: 38px;
   }
