@@ -1,23 +1,6 @@
-/* tomorrow-regular - latin */
-@font-face {
-  font-family: 'Tomorrow';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/tomorrow-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/tomorrow-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* syne-regular - latin */
-@font-face {
-  font-family: 'Syne';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/syne-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/syne-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
- @import url('http://fonts.cdnfonts.com/css/04b19');
 
+@import url('http://fonts.cdnfonts.com/css/04b19');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow');
                 
 * {
   margin: 0;
