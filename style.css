@@ -1,6 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/04b19');
-@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url("http://fonts.cdnfonts.com/css/04b19");
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,9 @@ body {
   overflow-x: hidden;
 }
 
-h1,h2,p {
+h1,
+h2,
+p {
   margin: 0;
 }
 
@@ -55,7 +57,7 @@ a {
   display: inline-block;
 }
 .nav__link {
-  font-family: "Tomorrow";
+  font-family: 'Tomorrow', sans-serif;
   padding: 0px 15px;
   font-size: 15px;
   font-weight: 700;
@@ -70,7 +72,7 @@ a {
 
   width: 205px;
   height: 50px;
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -98,7 +100,7 @@ a {
 .home__title {
   margin-top: 0;
   padding-top: 0;
-  font-family: Tomorrow;
+  font-family: 'Tomorrow', sans-serif;
   font-size: 38px;
   font-weight: bold;
   line-height: 45px;
@@ -116,7 +118,7 @@ a {
   margin-top: 1rem;
   width: 240px;
   height: 59px;
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -152,7 +154,7 @@ a {
   padding: max(6vh, 3rem);
 }
 .about__title {
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
@@ -169,7 +171,7 @@ a {
   padding-top: max(6vh, 10%);
 }
 .about__data p {
-  font-family: "Syne";
+  font-family: 'Syne', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -214,7 +216,7 @@ a {
 .card .card-title {
   color: #0d1950;
   padding: 20px 10px;
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -247,7 +249,7 @@ a {
 }
 
 .card .card-text {
-  font-family: "Syne";
+  font-family: 'Syne', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -274,7 +276,7 @@ a {
   color: #fff;
 }
 .team h1 {
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-size: 90px;
   font-weight: 400;
   line-height: 70px;
@@ -282,7 +284,7 @@ a {
   padding-top: 50px;
 }
 .team p {
-  font-family: "Tomorrow";
+  font-family: 'Tomorrow', sans-serif;
   font-style: normal;
   font-size: 25px;
   line-height: 70px;
@@ -321,7 +323,7 @@ a {
 .team-card .team-card-title {
   color: #0d1950;
   padding: 20px 10px;
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -359,7 +361,7 @@ a {
 }
 
 .team-card .team-card-text {
-  font-family: "Syne";
+  font-family: 'Syne', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -380,7 +382,7 @@ a {
   height: 169px;
 }
 .footer-text {
- font-family: '04b_19', sans-serif;
+  font-family: "04b_19", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -389,7 +391,6 @@ a {
 }
 
 /* ==== MEDIA QUERIES ==== */
-
 
 /* 769px to 1440 px Resolution */
 
@@ -467,7 +468,6 @@ a {
     display: flex;
     height: 600vh;
     overflow: hidden;
-  
   }
   .about__data,
   .about__img {
@@ -483,7 +483,6 @@ a {
   .about__data {
     order: 2;
     padding: 25px;
-  
   }
   .about__data h1 {
     font-size: 60px;
@@ -495,10 +494,10 @@ a {
     font-size: 15px;
     line-height: 20px;
   }
-  .card-container{
+  .card-container {
     order: 3;
   }
-  .card{
+  .card {
     width: 310px;
     height: 550px;
   }
@@ -509,15 +508,14 @@ a {
     font-size: 65px;
     line-height: 65px;
   }
-  .team p{
+  .team p {
     margin-top: 20px;
     font-size: 16px;
     line-height: 20px;
     font-style: normal;
-
   }
- .footer-text{
-  font-size: 38px;
-  line-height: 38px;
- }
+  .footer-text {
+    font-size: 38px;
+    line-height: 38px;
+  }
 }
